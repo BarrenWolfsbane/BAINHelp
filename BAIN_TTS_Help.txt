@@ -1,170 +1,174 @@
 BAIN TTS Help File
 
-To Change voice Type '!setvoice <ModelName>'
+ALL commands can be used on ANY Livestreaming platform while streamer is active.
+The Following are Text To Speech Commands allowing the voice that reads your text to be altered to your liking as a viewer
+To Change Voice Model Type '!setvoice <ModelName>' ( Models and Commands Listed Below )
 Some models have more then one speaker type '!setspeaker <number>' to choose a speaker
 To Change pitch Type '!setpitch <0.01-3.0>'
 To Change formant Type '!setformant <0.01-5.0>'
 
+The Default Voicemodel is 'en-us-libritts-high' with the default speaker of '0'
+
 Models Supported
 
 Language:ca-es
-medium quality upc_ona ----  (!setvoice ca-es-upc_ona-medium)
-x_low quality upc_ona ----  (!setvoice ca-es-upc_ona-x_low)
-x_low quality upc_pau ----  (!setvoice ca-es-upc_pau-x_low)
+medium quality VoiceModel: upc_ona - Command: !setvoice ca-es-upc_ona-medium
+x_low quality VoiceModel: upc_ona - Command: !setvoice ca-es-upc_ona-x_low
+x_low quality VoiceModel: upc_pau - Command: !setvoice ca-es-upc_pau-x_low
 
 Language:cs-cz
-medium quality jirka ----  (!setvoice cs-cz-jirka-medium)
+medium quality VoiceModel: jirka - Command: !setvoice cs-cz-jirka-medium
 
 Language:da-dk
-medium quality talesyntese ----  (!setvoice da-dk-talesyntese-medium)
+medium quality VoiceModel: talesyntese - Command: !setvoice da-dk-talesyntese-medium
 
 Language:de-de
-x_low quality eva_k ----  (!setvoice de-de-eva_k-x_low)
-low quality karlsson ----  (!setvoice de-de-karlsson-low)
-low quality kerstin ----  (!setvoice de-de-kerstin-low)
-low quality pavoque ----  (!setvoice de-de-pavoque-low)
-low quality ramona ----  (!setvoice de-de-ramona-low)
-high quality thorsten ----  (!setvoice de-de-thorsten-high)
-low quality thorsten ----  (!setvoice de-de-thorsten-low)
-medium quality thorsten ----  (!setvoice de-de-thorsten-medium)
-medium quality thorsten_emotional ----  (!setvoice de-de-thorsten_emotional-medium)-- 8 total voices (!setspeaker 1-8)
+x_low quality VoiceModel: eva_k - Command: !setvoice de-de-eva_k-x_low
+low quality VoiceModel: karlsson - Command: !setvoice de-de-karlsson-low
+low quality VoiceModel: kerstin - Command: !setvoice de-de-kerstin-low
+low quality VoiceModel: pavoque - Command: !setvoice de-de-pavoque-low
+low quality VoiceModel: ramona - Command: !setvoice de-de-ramona-low
+high quality VoiceModel: thorsten - Command: !setvoice de-de-thorsten-high
+low quality VoiceModel: thorsten - Command: !setvoice de-de-thorsten-low
+medium quality VoiceModel: thorsten - Command: !setvoice de-de-thorsten-medium
+medium quality VoiceModel: thorsten_emotional - Command: !setvoice de-de-thorsten_emotional-medium --- additional speakers supported using Command: !setspeaker 0-7
 
 Language:el-gr
-low quality rapunzelina ----  (!setvoice el-gr-rapunzelina-low)
+low quality VoiceModel: rapunzelina - Command: !setvoice el-gr-rapunzelina-low
 
 Language:en-gb
-low quality alan ----  (!setvoice en-gb-alan-low)
-medium quality alan ----  (!setvoice en-gb-alan-medium)
-medium quality alba ----  (!setvoice en-gb-alba-medium)
-medium quality aru ----  (!setvoice en-gb-aru-medium)-- 12 total voices (!setspeaker 1-12)
-medium quality jenny_dioco ----  (!setvoice en-gb-jenny_dioco-medium)
-medium quality northern_english_male ----  (!setvoice en-gb-northern_english_male-medium)
-medium quality semaine ----  (!setvoice en-gb-semaine-medium)-- 4 total voices (!setspeaker 1-4)
-low quality southern_english_female ----  (!setvoice en-gb-southern_english_female-low)
-medium quality vctk ----  (!setvoice en-gb-vctk-medium)-- 109 total voices (!setspeaker 1-109)
+low quality VoiceModel: alan - Command: !setvoice en-gb-alan-low
+medium quality VoiceModel: alan - Command: !setvoice en-gb-alan-medium
+medium quality VoiceModel: alba - Command: !setvoice en-gb-alba-medium
+medium quality VoiceModel: aru - Command: !setvoice en-gb-aru-medium --- additional speakers supported using Command: !setspeaker 0-11
+medium quality VoiceModel: jenny_dioco - Command: !setvoice en-gb-jenny_dioco-medium
+medium quality VoiceModel: northern_english_male - Command: !setvoice en-gb-northern_english_male-medium
+medium quality VoiceModel: semaine - Command: !setvoice en-gb-semaine-medium --- additional speakers supported using Command: !setspeaker 0-3
+low quality VoiceModel: southern_english_female - Command: !setvoice en-gb-southern_english_female-low
+medium quality VoiceModel: vctk - Command: !setvoice en-gb-vctk-medium --- additional speakers supported using Command: !setspeaker 0-108
 
 Language:en-us
-low quality amy ----  (!setvoice en-us-amy-low)
-medium quality amy ----  (!setvoice en-us-amy-medium)
-medium quality arctic ----  (!setvoice en-us-arctic-medium)-- 18 total voices (!setspeaker 1-18)
-low quality danny ----  (!setvoice en-us-danny-low)
-medium quality joe ----  (!setvoice en-us-joe-medium)
-low quality kathleen ----  (!setvoice en-us-kathleen-low)
-medium quality kusal ----  (!setvoice en-us-kusal-medium)
-medium quality l2arctic ----  (!setvoice en-us-l2arctic-medium)-- 24 total voices (!setspeaker 1-24)
-high quality lessac ----  (!setvoice en-us-lessac-high)
-low quality lessac ----  (!setvoice en-us-lessac-low)
-medium quality lessac ----  (!setvoice en-us-lessac-medium)
-high quality libritts ----  (!setvoice en-us-libritts-high)-- 904 total voices (!setspeaker 1-904)
-high quality ryan ----  (!setvoice en-us-ryan-high)
-low quality ryan ----  (!setvoice en-us-ryan-low)
-medium quality ryan ----  (!setvoice en-us-ryan-medium)
+low quality VoiceModel: amy - Command: !setvoice en-us-amy-low
+medium quality VoiceModel: amy - Command: !setvoice en-us-amy-medium
+medium quality VoiceModel: arctic - Command: !setvoice en-us-arctic-medium --- additional speakers supported using Command: !setspeaker 0-17
+low quality VoiceModel: danny - Command: !setvoice en-us-danny-low
+medium quality VoiceModel: joe - Command: !setvoice en-us-joe-medium
+low quality VoiceModel: kathleen - Command: !setvoice en-us-kathleen-low
+medium quality VoiceModel: kusal - Command: !setvoice en-us-kusal-medium
+medium quality VoiceModel: l2arctic - Command: !setvoice en-us-l2arctic-medium --- additional speakers supported using Command: !setspeaker 0-23
+high quality VoiceModel: lessac - Command: !setvoice en-us-lessac-high
+low quality VoiceModel: lessac - Command: !setvoice en-us-lessac-low
+medium quality VoiceModel: lessac - Command: !setvoice en-us-lessac-medium
+high quality VoiceModel: libritts - Command: !setvoice en-us-libritts-high --- additional speakers supported using Command: !setspeaker 0-903
+high quality VoiceModel: ryan - Command: !setvoice en-us-ryan-high
+low quality VoiceModel: ryan - Command: !setvoice en-us-ryan-low
+medium quality VoiceModel: ryan - Command: !setvoice en-us-ryan-medium
 
 Language:es-es
-x_low quality carlfm ----  (!setvoice es-es-carlfm-x_low)
-medium quality davefx ----  (!setvoice es-es-davefx-medium)
-low quality mls_10246 ----  (!setvoice es-es-mls_10246-low)
-low quality mls_9972 ----  (!setvoice es-es-mls_9972-low)
-medium quality sharvard ----  (!setvoice es-es-sharvard-medium)-- 2 total voices (!setspeaker 1-2)
+x_low quality VoiceModel: carlfm - Command: !setvoice es-es-carlfm-x_low
+medium quality VoiceModel: davefx - Command: !setvoice es-es-davefx-medium
+low quality VoiceModel: mls_10246 - Command: !setvoice es-es-mls_10246-low
+low quality VoiceModel: mls_9972 - Command: !setvoice es-es-mls_9972-low
+medium quality VoiceModel: sharvard - Command: !setvoice es-es-sharvard-medium --- additional speakers supported using Command: !setspeaker 0-1
 
 Language:es-mx
-medium quality ald ----  (!setvoice es-mx-ald-medium)
+medium quality VoiceModel: ald - Command: !setvoice es-mx-ald-medium
 
 Language:fi-fi
-low quality harri ----  (!setvoice fi-fi-harri-low)
-medium quality harri ----  (!setvoice fi-fi-harri-medium)
+low quality VoiceModel: harri - Command: !setvoice fi-fi-harri-low
+medium quality VoiceModel: harri - Command: !setvoice fi-fi-harri-medium
 
 Language:fr-fr
-low quality gilles ----  (!setvoice fr-fr-gilles-low)
-low quality mls_1840 ----  (!setvoice fr-fr-mls_1840-low)
-low quality siwis ----  (!setvoice fr-fr-siwis-low)
-medium quality siwis ----  (!setvoice fr-fr-siwis-medium)
-medium quality upmc ----  (!setvoice fr-fr-upmc-medium)-- 2 total voices (!setspeaker 1-2)
+low quality VoiceModel: gilles - Command: !setvoice fr-fr-gilles-low
+low quality VoiceModel: mls_1840 - Command: !setvoice fr-fr-mls_1840-low
+low quality VoiceModel: siwis - Command: !setvoice fr-fr-siwis-low
+medium quality VoiceModel: siwis - Command: !setvoice fr-fr-siwis-medium
+medium quality VoiceModel: upmc - Command: !setvoice fr-fr-upmc-medium --- additional speakers supported using Command: !setspeaker 0-1
 
 Language:hu-hu
-medium quality anna ----  (!setvoice hu-hu-anna-medium)
-medium quality berta ----  (!setvoice hu-hu-berta-medium)
+medium quality VoiceModel: anna - Command: !setvoice hu-hu-anna-medium
+medium quality VoiceModel: berta - Command: !setvoice hu-hu-berta-medium
 
 Language:is-is
-medium quality bui ----  (!setvoice is-is-bui-medium)
-medium quality salka ----  (!setvoice is-is-salka-medium)
-medium quality steinn ----  (!setvoice is-is-steinn-medium)
-medium quality ugla ----  (!setvoice is-is-ugla-medium)
+medium quality VoiceModel: bui - Command: !setvoice is-is-bui-medium
+medium quality VoiceModel: salka - Command: !setvoice is-is-salka-medium
+medium quality VoiceModel: steinn - Command: !setvoice is-is-steinn-medium
+medium quality VoiceModel: ugla - Command: !setvoice is-is-ugla-medium
 
 Language:it-it
-x_low quality riccardo ----  (!setvoice it-it-riccardo-x_low)
+x_low quality VoiceModel: riccardo - Command: !setvoice it-it-riccardo-x_low
 
 Language:ka-ge
-medium quality natia ----  (!setvoice ka-ge-natia-medium)
+medium quality VoiceModel: natia - Command: !setvoice ka-ge-natia-medium
 
 Language:kk-kz
-x_low quality iseke ----  (!setvoice kk-kz-iseke-x_low)
-high quality issai ----  (!setvoice kk-kz-issai-high)-- 6 total voices (!setspeaker 1-6)
-x_low quality raya ----  (!setvoice kk-kz-raya-x_low)
+x_low quality VoiceModel: iseke - Command: !setvoice kk-kz-iseke-x_low
+high quality VoiceModel: issai - Command: !setvoice kk-kz-issai-high --- additional speakers supported using Command: !setspeaker 0-5
+x_low quality VoiceModel: raya - Command: !setvoice kk-kz-raya-x_low
 
 Language:lb-lu
-medium quality marylux ----  (!setvoice lb-lu-marylux-medium)
+medium quality VoiceModel: marylux - Command: !setvoice lb-lu-marylux-medium
 
 Language:ne-np
-medium quality google ----  (!setvoice ne-np-google-medium)-- 18 total voices (!setspeaker 1-18)
-x_low quality google ----  (!setvoice ne-np-google-x_low)-- 18 total voices (!setspeaker 1-18)
+medium quality VoiceModel: google - Command: !setvoice ne-np-google-medium --- additional speakers supported using Command: !setspeaker 0-17
+x_low quality VoiceModel: google - Command: !setvoice ne-np-google-x_low --- additional speakers supported using Command: !setspeaker 0-17
 
 Language:nl-be
-medium quality nathalie ----  (!setvoice nl-be-nathalie-medium)
-x_low quality nathalie ----  (!setvoice nl-be-nathalie-x_low)
-medium quality rdh ----  (!setvoice nl-be-rdh-medium)
-x_low quality rdh ----  (!setvoice nl-be-rdh-x_low)
+medium quality VoiceModel: nathalie - Command: !setvoice nl-be-nathalie-medium
+x_low quality VoiceModel: nathalie - Command: !setvoice nl-be-nathalie-x_low
+medium quality VoiceModel: rdh - Command: !setvoice nl-be-rdh-medium
+x_low quality VoiceModel: rdh - Command: !setvoice nl-be-rdh-x_low
 
 Language:nl-nl
-low quality mls_5809 ----  (!setvoice nl-nl-mls_5809-low)
-low quality mls_7432 ----  (!setvoice nl-nl-mls_7432-low)
+low quality VoiceModel: mls_5809 - Command: !setvoice nl-nl-mls_5809-low
+low quality VoiceModel: mls_7432 - Command: !setvoice nl-nl-mls_7432-low
 
 Language:pl-pl
-medium quality darkman ----  (!setvoice pl-pl-darkman-medium)
-medium quality gosia ----  (!setvoice pl-pl-gosia-medium)
-low quality mls_6892 ----  (!setvoice pl-pl-mls_6892-low)
+medium quality VoiceModel: darkman - Command: !setvoice pl-pl-darkman-medium
+medium quality VoiceModel: gosia - Command: !setvoice pl-pl-gosia-medium
+low quality VoiceModel: mls_6892 - Command: !setvoice pl-pl-mls_6892-low
 
 Language:pt-br
-low quality edresson ----  (!setvoice pt-br-edresson-low)
-medium quality faber ----  (!setvoice pt-br-faber-medium)
+low quality VoiceModel: edresson - Command: !setvoice pt-br-edresson-low
+medium quality VoiceModel: faber - Command: !setvoice pt-br-faber-medium
 
 Language:pt-pt
-medium quality tugão ----  (!setvoice pt-pt-tugão-medium)
+medium quality VoiceModel: tugão - Command: !setvoice pt-pt-tugão-medium
 
 Language:ro-ro
-medium quality mihai ----  (!setvoice ro-ro-mihai-medium)
+medium quality VoiceModel: mihai - Command: !setvoice ro-ro-mihai-medium
 
 Language:ru-ru
-medium quality denis ----  (!setvoice ru-ru-denis-medium)
-medium quality dmitri ----  (!setvoice ru-ru-dmitri-medium)
-medium quality irina ----  (!setvoice ru-ru-irina-medium)
-medium quality ruslan ----  (!setvoice ru-ru-ruslan-medium)
+medium quality VoiceModel: denis - Command: !setvoice ru-ru-denis-medium
+medium quality VoiceModel: dmitri - Command: !setvoice ru-ru-dmitri-medium
+medium quality VoiceModel: irina - Command: !setvoice ru-ru-irina-medium
+medium quality VoiceModel: ruslan - Command: !setvoice ru-ru-ruslan-medium
 
 Language:sk-sk
-medium quality lili ----  (!setvoice sk-sk-lili-medium)
+medium quality VoiceModel: lili - Command: !setvoice sk-sk-lili-medium
 
 Language:sr-rs
-medium quality serbski_institut ----  (!setvoice sr-rs-serbski_institut-medium)-- 2 total voices (!setspeaker 1-2)
+medium quality VoiceModel: serbski_institut - Command: !setvoice sr-rs-serbski_institut-medium --- additional speakers supported using Command: !setspeaker 0-1
 
 Language:sv-se
-medium quality nst ----  (!setvoice sv-se-nst-medium)
+medium quality VoiceModel: nst - Command: !setvoice sv-se-nst-medium
 
 Language:sw-cd
-medium quality lanfrica ----  (!setvoice sw-cd-lanfrica-medium)
+medium quality VoiceModel: lanfrica - Command: !setvoice sw-cd-lanfrica-medium
 
 Language:tr-tr
-medium quality dfki ----  (!setvoice tr-tr-dfki-medium)
-medium quality fahrettin ----  (!setvoice tr-tr-fahrettin-medium)
+medium quality VoiceModel: dfki - Command: !setvoice tr-tr-dfki-medium
+medium quality VoiceModel: fahrettin - Command: !setvoice tr-tr-fahrettin-medium
 
 Language:uk-ua
-x_low quality lada ----  (!setvoice uk-ua-lada-x_low)
-medium quality ukrainian_tts ----  (!setvoice uk-ua-ukrainian_tts-medium)-- 3 total voices (!setspeaker 1-3)
+x_low quality VoiceModel: lada - Command: !setvoice uk-ua-lada-x_low
+medium quality VoiceModel: ukrainian_tts - Command: !setvoice uk-ua-ukrainian_tts-medium --- additional speakers supported using Command: !setspeaker 0-2
 
 Language:vi-vn
-low quality 25hours_single ----  (!setvoice vi-vn-25hours_single-low)
-medium quality vais1000 ----  (!setvoice vi-vn-vais1000-medium)
-x_low quality vivos ----  (!setvoice vi-vn-vivos-x_low)-- 65 total voices (!setspeaker 1-65)
+low quality VoiceModel: 25hours_single - Command: !setvoice vi-vn-25hours_single-low
+medium quality VoiceModel: vais1000 - Command: !setvoice vi-vn-vais1000-medium
+x_low quality VoiceModel: vivos - Command: !setvoice vi-vn-vivos-x_low --- additional speakers supported using Command: !setspeaker 0-64
 
 Language:zh-cn
-medium quality huayan ----  (!setvoice zh-cn-huayan-medium)
-x_low quality huayan ----  (!setvoice zh-cn-huayan-x_low)
+medium quality VoiceModel: huayan - Command: !setvoice zh-cn-huayan-medium
+x_low quality VoiceModel: huayan - Command: !setvoice zh-cn-huayan-x_low
