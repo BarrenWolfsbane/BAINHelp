@@ -1,9 +1,10 @@
 BAIN TTS Help File
 
-ALL commands can be used on ANY Livestreaming platform while streamer is active.
+BAIN TV Allows for your chat messages to be read in the voice of your choosing!
 The Following are Text To Speech Commands allowing the voice that reads your text to be altered to your liking as a viewer
+ALL commands can be typed into chat on ANY Livestreaming platform while streamer is active.
 To Change Voice Model Type '!setvoice <ModelName>' ( Models and Commands Listed Below )
-Some models have more then one speaker type '!setspeaker <number>' to choose a speaker
+Some models have more then one speaker type '!setspeaker <number>' to choose a speaker (There are akin to different voice presets)
 To Change pitch Type '!setpitch <0.01-3.0>'
 To Change formant Type '!setformant <0.01-5.0>'
 
