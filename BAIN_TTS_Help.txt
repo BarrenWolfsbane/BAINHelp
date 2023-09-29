@@ -1,99 +1,170 @@
 BAIN TTS Help File
 
+To Change voice Type '!setvoice <ModelName>'
+Some models have more then one speaker type '!setspeaker <number>' to choose a speaker
+To Change pitch Type '!setpitch <0.01-3.0>'
+To Change formant Type '!setformant <0.01-5.0>'
+
 Models Supported
-ca-es-upc_ona-medium
-ca-es-upc_ona-x_low
-ca-es-upc_pau-x_low
-cs-cz-jirka-medium
-da-dk-talesyntese-medium
-de-de-eva_k-x_low
-de-de-karlsson-low
-de-de-kerstin-low
-de-de-pavoque-low
-de-de-ramona-low
-de-de-thorsten-high
-de-de-thorsten-low
-de-de-thorsten-medium
-de-de-thorsten_emotional-medium
-el-gr-rapunzelina-low
-en-gb-alan-low
-en-gb-alan-medium
-en-gb-alba-medium
-en-gb-aru-medium
-en-gb-jenny_dioco-medium
-en-gb-northern_english_male-medium
-en-gb-semaine-medium
-en-gb-southern_english_female-low
-en-gb-vctk-medium
-en-us-amy-low
-en-us-amy-medium
-en-us-arctic-medium
-en-us-danny-low
-en-us-joe-medium
-en-us-kathleen-low
-en-us-kusal-medium
-en-us-l2arctic-medium
-en-us-lessac-high
-en-us-lessac-low
-en-us-lessac-medium
-en-us-libritts-high
-en-us-ryan-high
-en-us-ryan-low
-en-us-ryan-medium
-es-es-carlfm-x_low
-es-es-davefx-medium
-es-es-mls_10246-low
-es-es-mls_9972-low
-es-es-sharvard-medium
-es-mx-ald-medium
-fi-fi-harri-low
-fi-fi-harri-medium
-fr-fr-gilles-low
-fr-fr-mls_1840-low
-fr-fr-siwis-low
-fr-fr-siwis-medium
-fr-fr-upmc-medium
-hu-hu-anna-medium
-hu-hu-berta-medium
-is-is-bui-medium
-is-is-salka-medium
-is-is-steinn-medium
-is-is-ugla-medium
-it-it-riccardo-x_low
-ka-ge-natia-medium
-kk-kz-iseke-x_low
-kk-kz-issai-high
-kk-kz-raya-x_low
-lb-lu-marylux-medium
-ne-np-google-medium
-ne-np-google-x_low
-nl-be-nathalie-medium
-nl-be-nathalie-x_low
-nl-be-rdh-medium
-nl-be-rdh-x_low
-nl-nl-mls_5809-low
-nl-nl-mls_7432-low
-pl-pl-darkman-medium
-pl-pl-gosia-medium
-pl-pl-mls_6892-low
-pt-br-edresson-low
-pt-br-faber-medium
-pt-pt-tugão-medium
-ro-ro-mihai-medium
-ru-ru-denis-medium
-ru-ru-dmitri-medium
-ru-ru-irina-medium
-ru-ru-ruslan-medium
-sk-sk-lili-medium
-sr-rs-serbski_institut-medium
-sv-se-nst-medium
-sw-cd-lanfrica-medium
-tr-tr-dfki-medium
-tr-tr-fahrettin-medium
-uk-ua-lada-x_low
-uk-ua-ukrainian_tts-medium
-vi-vn-25hours_single-low
-vi-vn-vais1000-medium
-vi-vn-vivos-x_low
-zh-cn-huayan-medium
-zh-cn-huayan-x_low
+
+Language:ca-es
+medium quality upc_ona ----  (!setvoice ca-es-upc_ona-medium)
+x_low quality upc_ona ----  (!setvoice ca-es-upc_ona-x_low)
+x_low quality upc_pau ----  (!setvoice ca-es-upc_pau-x_low)
+
+Language:cs-cz
+medium quality jirka ----  (!setvoice cs-cz-jirka-medium)
+
+Language:da-dk
+medium quality talesyntese ----  (!setvoice da-dk-talesyntese-medium)
+
+Language:de-de
+x_low quality eva_k ----  (!setvoice de-de-eva_k-x_low)
+low quality karlsson ----  (!setvoice de-de-karlsson-low)
+low quality kerstin ----  (!setvoice de-de-kerstin-low)
+low quality pavoque ----  (!setvoice de-de-pavoque-low)
+low quality ramona ----  (!setvoice de-de-ramona-low)
+high quality thorsten ----  (!setvoice de-de-thorsten-high)
+low quality thorsten ----  (!setvoice de-de-thorsten-low)
+medium quality thorsten ----  (!setvoice de-de-thorsten-medium)
+medium quality thorsten_emotional ----  (!setvoice de-de-thorsten_emotional-medium)-- 8 total voices (!setspeaker 1-8)
+
+Language:el-gr
+low quality rapunzelina ----  (!setvoice el-gr-rapunzelina-low)
+
+Language:en-gb
+low quality alan ----  (!setvoice en-gb-alan-low)
+medium quality alan ----  (!setvoice en-gb-alan-medium)
+medium quality alba ----  (!setvoice en-gb-alba-medium)
+medium quality aru ----  (!setvoice en-gb-aru-medium)-- 12 total voices (!setspeaker 1-12)
+medium quality jenny_dioco ----  (!setvoice en-gb-jenny_dioco-medium)
+medium quality northern_english_male ----  (!setvoice en-gb-northern_english_male-medium)
+medium quality semaine ----  (!setvoice en-gb-semaine-medium)-- 4 total voices (!setspeaker 1-4)
+low quality southern_english_female ----  (!setvoice en-gb-southern_english_female-low)
+medium quality vctk ----  (!setvoice en-gb-vctk-medium)-- 109 total voices (!setspeaker 1-109)
+
+Language:en-us
+low quality amy ----  (!setvoice en-us-amy-low)
+medium quality amy ----  (!setvoice en-us-amy-medium)
+medium quality arctic ----  (!setvoice en-us-arctic-medium)-- 18 total voices (!setspeaker 1-18)
+low quality danny ----  (!setvoice en-us-danny-low)
+medium quality joe ----  (!setvoice en-us-joe-medium)
+low quality kathleen ----  (!setvoice en-us-kathleen-low)
+medium quality kusal ----  (!setvoice en-us-kusal-medium)
+medium quality l2arctic ----  (!setvoice en-us-l2arctic-medium)-- 24 total voices (!setspeaker 1-24)
+high quality lessac ----  (!setvoice en-us-lessac-high)
+low quality lessac ----  (!setvoice en-us-lessac-low)
+medium quality lessac ----  (!setvoice en-us-lessac-medium)
+high quality libritts ----  (!setvoice en-us-libritts-high)-- 904 total voices (!setspeaker 1-904)
+high quality ryan ----  (!setvoice en-us-ryan-high)
+low quality ryan ----  (!setvoice en-us-ryan-low)
+medium quality ryan ----  (!setvoice en-us-ryan-medium)
+
+Language:es-es
+x_low quality carlfm ----  (!setvoice es-es-carlfm-x_low)
+medium quality davefx ----  (!setvoice es-es-davefx-medium)
+low quality mls_10246 ----  (!setvoice es-es-mls_10246-low)
+low quality mls_9972 ----  (!setvoice es-es-mls_9972-low)
+medium quality sharvard ----  (!setvoice es-es-sharvard-medium)-- 2 total voices (!setspeaker 1-2)
+
+Language:es-mx
+medium quality ald ----  (!setvoice es-mx-ald-medium)
+
+Language:fi-fi
+low quality harri ----  (!setvoice fi-fi-harri-low)
+medium quality harri ----  (!setvoice fi-fi-harri-medium)
+
+Language:fr-fr
+low quality gilles ----  (!setvoice fr-fr-gilles-low)
+low quality mls_1840 ----  (!setvoice fr-fr-mls_1840-low)
+low quality siwis ----  (!setvoice fr-fr-siwis-low)
+medium quality siwis ----  (!setvoice fr-fr-siwis-medium)
+medium quality upmc ----  (!setvoice fr-fr-upmc-medium)-- 2 total voices (!setspeaker 1-2)
+
+Language:hu-hu
+medium quality anna ----  (!setvoice hu-hu-anna-medium)
+medium quality berta ----  (!setvoice hu-hu-berta-medium)
+
+Language:is-is
+medium quality bui ----  (!setvoice is-is-bui-medium)
+medium quality salka ----  (!setvoice is-is-salka-medium)
+medium quality steinn ----  (!setvoice is-is-steinn-medium)
+medium quality ugla ----  (!setvoice is-is-ugla-medium)
+
+Language:it-it
+x_low quality riccardo ----  (!setvoice it-it-riccardo-x_low)
+
+Language:ka-ge
+medium quality natia ----  (!setvoice ka-ge-natia-medium)
+
+Language:kk-kz
+x_low quality iseke ----  (!setvoice kk-kz-iseke-x_low)
+high quality issai ----  (!setvoice kk-kz-issai-high)-- 6 total voices (!setspeaker 1-6)
+x_low quality raya ----  (!setvoice kk-kz-raya-x_low)
+
+Language:lb-lu
+medium quality marylux ----  (!setvoice lb-lu-marylux-medium)
+
+Language:ne-np
+medium quality google ----  (!setvoice ne-np-google-medium)-- 18 total voices (!setspeaker 1-18)
+x_low quality google ----  (!setvoice ne-np-google-x_low)-- 18 total voices (!setspeaker 1-18)
+
+Language:nl-be
+medium quality nathalie ----  (!setvoice nl-be-nathalie-medium)
+x_low quality nathalie ----  (!setvoice nl-be-nathalie-x_low)
+medium quality rdh ----  (!setvoice nl-be-rdh-medium)
+x_low quality rdh ----  (!setvoice nl-be-rdh-x_low)
+
+Language:nl-nl
+low quality mls_5809 ----  (!setvoice nl-nl-mls_5809-low)
+low quality mls_7432 ----  (!setvoice nl-nl-mls_7432-low)
+
+Language:pl-pl
+medium quality darkman ----  (!setvoice pl-pl-darkman-medium)
+medium quality gosia ----  (!setvoice pl-pl-gosia-medium)
+low quality mls_6892 ----  (!setvoice pl-pl-mls_6892-low)
+
+Language:pt-br
+low quality edresson ----  (!setvoice pt-br-edresson-low)
+medium quality faber ----  (!setvoice pt-br-faber-medium)
+
+Language:pt-pt
+medium quality tugão ----  (!setvoice pt-pt-tugão-medium)
+
+Language:ro-ro
+medium quality mihai ----  (!setvoice ro-ro-mihai-medium)
+
+Language:ru-ru
+medium quality denis ----  (!setvoice ru-ru-denis-medium)
+medium quality dmitri ----  (!setvoice ru-ru-dmitri-medium)
+medium quality irina ----  (!setvoice ru-ru-irina-medium)
+medium quality ruslan ----  (!setvoice ru-ru-ruslan-medium)
+
+Language:sk-sk
+medium quality lili ----  (!setvoice sk-sk-lili-medium)
+
+Language:sr-rs
+medium quality serbski_institut ----  (!setvoice sr-rs-serbski_institut-medium)-- 2 total voices (!setspeaker 1-2)
+
+Language:sv-se
+medium quality nst ----  (!setvoice sv-se-nst-medium)
+
+Language:sw-cd
+medium quality lanfrica ----  (!setvoice sw-cd-lanfrica-medium)
+
+Language:tr-tr
+medium quality dfki ----  (!setvoice tr-tr-dfki-medium)
+medium quality fahrettin ----  (!setvoice tr-tr-fahrettin-medium)
+
+Language:uk-ua
+x_low quality lada ----  (!setvoice uk-ua-lada-x_low)
+medium quality ukrainian_tts ----  (!setvoice uk-ua-ukrainian_tts-medium)-- 3 total voices (!setspeaker 1-3)
+
+Language:vi-vn
+low quality 25hours_single ----  (!setvoice vi-vn-25hours_single-low)
+medium quality vais1000 ----  (!setvoice vi-vn-vais1000-medium)
+x_low quality vivos ----  (!setvoice vi-vn-vivos-x_low)-- 65 total voices (!setspeaker 1-65)
+
+Language:zh-cn
+medium quality huayan ----  (!setvoice zh-cn-huayan-medium)
+x_low quality huayan ----  (!setvoice zh-cn-huayan-x_low)
